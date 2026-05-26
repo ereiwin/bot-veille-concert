@@ -11,8 +11,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
-ARTISTS = ["Muse", "Radiohead"]
-KEYWORDS = ["presale", "pre-sale", "on sale", "tickets", "tour", "Paris", "France", "Accor Arena", "Stade de France", "Zénith"]
+ARTISTS = ["Angus & Julia Stone","Archive Muse","Arcade Fire","Asian Dub Foundation","Black Keys","C2C","DJ Krush","Elastica","Faithless","Fat freddy's drop","Godspeed you black emperor","Hugo Kant","Iron Maiden","Justice","K's Choice","Lilly Wood and the prick","Massive Attack","Metallica","Muse","Overwerk","Portishead","Radiohead","Red Hot Chili Peppers","Rudimental","Senbei","Smashing Pumpkins","Soundagarden","Stupeflip","the heavy","Tom McRae","TTC","Wax Tailor","Woodkid","Zero 7"]
+KEYWORDS = ["presale", "pre-sale", "on sale", "tickets", "tour", "Paris", "France", "Accor Arena", "Stade de France", "Zénith", "Elysee Montmartre", "Le Trianon", "La Maroquinerie","La Cigale", "Le Trabendo", "New Morning"]
 RSS_FEEDS = ["https://www.ticketmaster.fr/rss", "https://www.livenation.fr/event/rss"]
 
 # =========================
